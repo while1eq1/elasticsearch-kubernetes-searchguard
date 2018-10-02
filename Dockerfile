@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.8.1
 LABEL maintainer="William Broach <while1eq1@gmail.com>"
 
 # Install Java
