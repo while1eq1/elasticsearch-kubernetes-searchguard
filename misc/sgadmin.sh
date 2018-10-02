@@ -9,4 +9,5 @@ chmod +x /elasticsearch/plugins/search-guard-6/tools/sgadmin.sh
 -kspass changeit \
 -tspass changeit \
 -h localhost \
--nhnv
+-nhnv \
+-arc
