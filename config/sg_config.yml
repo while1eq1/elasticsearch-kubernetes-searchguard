@@ -1,0 +1,4 @@
+searchguard:
+  dynamic:
+    http:
+      anonymous_auth_enabled: true

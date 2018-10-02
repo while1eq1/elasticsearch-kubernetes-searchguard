@@ -1,0 +1,4 @@
+elastic:
+  hash: changeme #elastic
+  roles:
+    - admin
