@@ -93,6 +93,9 @@ RUN ./bin/elasticsearch-plugin install repository-s3 --batch
 # Install prometheus plugin
 RUN ./bin/elasticsearch-plugin install --batch https://github.com/vvanholl/elasticsearch-prometheus-exporter/releases/download/6.4.1.0/elasticsearch-prometheus-exporter-6.4.1.0.zip
 
+# Overwrite sgadmin defaults
+COPY /config/sg* /elasticsearch/plugins/search-guard-6/sgconfig
+
 # Volume for Elasticsearch data
 VOLUME ["/data"]
 
